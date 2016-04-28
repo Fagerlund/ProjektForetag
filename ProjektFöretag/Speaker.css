@@ -1,0 +1,174 @@
+﻿body {
+    font-family:'Segoe UI';
+}
+*{
+    margin:0;
+    box-sizing:border-box;
+    font-weight:100;
+}
+
+#menu{
+    height:89vh;
+    width:100%;
+    background:url(http://e994010f48279d85b5d7-a0bc3fbf1884fc0965506ae2b946e1cd.r57.cf2.rackcdn.com/herobox-images/Klipsch-Bookshelf-Speakers-Family.jpg);
+    background-size:cover;
+    background-position:30% center;
+    display:none;
+}
+#menu div{
+    position:relative;
+    width:100%;
+    height:100%;
+    padding-top:5%;
+    text-align:center;
+    background:rgba(0, 0, 0, 0.7);
+}
+#menu div p{
+    width:100%;
+    height:15%;
+    text-decoration:none;
+    list-style-type:none;
+    color:rgb(196, 114, 67);
+    font-size:60px;
+    padding-top:5%;
+}
+#menu div p a{
+    text-decoration:none;
+    color:rgb(196, 114, 67);
+    font-size:60px;
+}
+
+#header{
+    width:100%;
+    background:rgba(0, 0, 0, 0.5);
+    position:absolute;
+    text-align:center;
+    border-bottom:2px solid rgb(196, 114, 67);
+}
+#header h1{
+    font-size:120px;
+    color:#000;
+    margin-left:15%;
+    font-weight:600;
+    display:inline-block;
+    -webkit-text-fill-color: transparent;
+    background: -webkit-linear-gradient(transparent, transparent), url(http://e994010f48279d85b5d7-a0bc3fbf1884fc0965506ae2b946e1cd.r57.cf2.rackcdn.com/herobox-images/Reference_Premiere_Lifestyle_2.jpg) no-repeat;
+    background-position:60% 0%;
+    background-size:490%;
+    background: -o-linear-gradient(transparent, transparent);
+    -webkit-background-clip:text;
+}
+#header h2{
+    display:block;
+    font-size:70px;
+    margin-left:15%;
+    color:#000;
+    -webkit-text-fill-color: transparent;
+    background: -webkit-linear-gradient(transparent, transparent), url(http://e994010f48279d85b5d7-a0bc3fbf1884fc0965506ae2b946e1cd.r57.cf2.rackcdn.com/herobox-images/Reference_Premiere_Lifestyle_2.jpg) no-repeat;
+    background-position:73.5% 18%;
+    background-size:250%;
+    background: -o-linear-gradient(transparent, transparent);
+    -webkit-background-clip:text;
+}
+#hamButton{
+    font-size:110px;
+    float:right;
+    margin-top:0%;
+    margin-right:0%;
+    padding:2% 5%;
+    color:rgba(255, 255, 255, 0.7);
+    display:inline-block;
+}
+#cinemaBackground{
+    background:url(http://e994010f48279d85b5d7-a0bc3fbf1884fc0965506ae2b946e1cd.r57.cf2.rackcdn.com/herobox-images/Reference_Premiere_Lifestyle_2.jpg);
+    background-size:cover;
+    background-position:70% center;
+    width:100%;
+    height:60vh;
+}
+
+#rp-280FA{
+    border-top:4px solid rgb(196, 114, 67);
+    height:80vh;
+    width:100%;
+    background:url(http://e994010f48279d85b5d7-a0bc3fbf1884fc0965506ae2b946e1cd.r57.cf2.rackcdn.com/product-images/_643xAUTO_fit_center-center_80/RP-280FA-Top-Walnut.jpg);
+    background-repeat:no-repeat;
+    background-size:140%;
+    background-position:90% 0%;
+}
+#rp-280FA div{
+    width:100%;
+    height:100%;
+    background:linear-gradient(45deg, transparent 60%, rgba(0, 0, 0, 0.8) 0%);
+}
+#rp-280FA div h2{
+    font-size:90px;
+    color:rgba(255, 255, 255, 0.7);
+    float:right;
+    padding:5%;
+    margin-right:2%;
+    margin-top:4%;
+}
+#p-39F{
+    border-top:4px solid rgb(196, 114, 67);
+    height:80vh;
+    width:100%;
+    background:url(http://e994010f48279d85b5d7-a0bc3fbf1884fc0965506ae2b946e1cd.r57.cf2.rackcdn.com/product-images/P-39F-Espresso-Angle-LEFT.jpg);
+    background-repeat:no-repeat;
+    background-size:140%;
+    background-position:80% 0%;
+}
+#p-39F div{
+    width:100%;
+    height:100%;
+    background:linear-gradient(45deg, transparent 60%, rgba(0, 0, 0, 0.8) 0%);
+}
+#p-39F h2{
+    font-size:90px;
+    color:rgba(255, 255, 255, 0.7);
+    float:right;
+    padding:5%;
+    margin-right:5%;
+    margin-top:4%;
+}
+#rf-7{
+    border-top:4px solid rgb(196, 114, 67);
+    height:80vh;
+    width:100%;
+    background:url(http://images.klipsch.com/RF-7-Black-AngleII_635043089116370000_medium.jpg);
+    background-repeat:no-repeat;
+    background-size:125%;
+    background-position:100% 100%;
+}
+#rf-7 div{
+    width:100%;
+    height:100%;
+    background:linear-gradient(45deg, transparent 60%, rgba(0, 0, 0, 0.8) 0%);
+}
+#rf-7 h2{
+    font-size:90px;
+    color:rgba(255, 255, 255, 0.7);
+    float:right;
+    padding:5%;
+    margin-right:5%;
+    margin-top:4%;
+}
+
+#firstFooter{
+    
+}
+
+footer{
+    background:linear-gradient(-135deg, rgba(20, 20, 20, 0.9) 82%, rgb(196, 114, 67) 0%);
+    height:13vh;
+    width:100%;
+    padding-top:5%;
+    text-align:right;
+    box-shadow:0px 0px 100px #000;
+}
+footer p{
+    font-size:50px;
+    color:rgb(196, 114, 67);
+    margin-top:3%;
+    margin-right:5%;
+}
